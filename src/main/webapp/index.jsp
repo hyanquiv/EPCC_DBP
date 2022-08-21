@@ -54,13 +54,10 @@
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav ml-auto">
 					<li class="nav-item">
-						<a class="nav-link" href="">Banca por Internet</a>
+						<a class="nav-link" href="bancaxinternet.jsp">Banca por Internet</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="">Abre tu Cuenta</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="">Solicita un Préstamo</a>
+						<a class="nav-link" href="register.jsp">Abre tu Cuenta</a>
 					</li>
 				</ul>
             </div>
