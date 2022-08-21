@@ -133,27 +133,29 @@
 
             <header class="slider-main">
                 <div id="carouselExampleIndicators" class="carousel slide carousel-fade" data-ride="carousel">
-                    <div>
-
-                    </div>
+                    
                     <div class="touch-line">
-
-
-
                     </div>
-                    <div class="carousel-inner" role="listbox">
-                        <div >
-                            <img class="c_ima" src="https://www.qapaq.pe/wp-content/uploads/2020/06/pinbn-64x64.png" width="54" height="54" alt="beneficios" title="beneficios">
-                        </div>
+                    <div  class="carousel-inner" role="listbox">
+
 
                         <div class="c_grande"> 
                             <div class="c_peque1">
-
+                                <img class="c_ima" src="https://www.qapaq.pe/wp-content/uploads/2020/06/pinbn-64x64.png" width="54" height="54" alt="beneficios" title="beneficios">
                                 <h1 style="color: #ed1843; text-align: center;">Nuestras Agencias</h1>
                                 <p>Visítanos y solicita uno de nuestros productos y/o realiza tus transacciones en el horario de lunes a viernes de 9:00am a 6:30pm y sábados de 9:00am a 1:00pm</p>
+                                <img class="c_ima" src="https://www.qapaq.pe/wp-content/uploads/2020/06/payment-64x64.png" width="54" height="54" alt="beneficios" title="beneficios">
+                                <h1 style="color: #ed1843; text-align: center;">Agentes Recaudadores</h1>
+                                <p style="text-align: center;"><strong>Realiza tus pagos en los agentes afiliados de:</strong></p>
+                                <img  src="https://www.qapaq.pe/wp-content/uploads/2020/10/logo_kasnet-02_medium-1.png" width="150" height="100" alt="beneficios" title="beneficios"><br>
+                                <img  src="https://www.qapaq.pe/wp-content/uploads/2020/10/logo_western_mesa_de_trabajo_1_medium-1.png" width="150" height="100" alt="beneficios" title="beneficios">
+                                
                             </div>
 
                         </div>
+
+
+
 
                     </div>                        
                 </div>
@@ -163,19 +165,19 @@
             <div class="touch-line1">
                 <div class="c_final">
                     <div class="barra_final">
-                        <a class="botones_bf" href="conocenos.jsp">Libro de Reclamaciones</a>
+                        <a class="botones_bf" href="index.jsp">Libro de Reclamaciones</a>
                     </div>
                     <div class="barra_final">
-                        <a class="botones_bf" href="conocenos.jsp">Trabaja con Nosotros</a>
+                        <a class="botones_bf" href="index.jsp">Trabaja con Nosotros</a>
                     </div>
                     <div class="barra_final">
-                        <a class="botones_bf" href="conocenos.jsp">Terminos y Condiciones</a>
+                        <a class="botones_bf" href="index.jsp">Terminos y Condiciones</a>
                     </div>
                     <div class="barra_final">
-                        <a class="botones_bf" href="conocenos.jsp">Proteccion de Datos Personales</a>
+                        <a class="botones_bf" href="index.jsp">Proteccion de Datos Personales</a>
                     </div>
                     <div class="barra_final">
-                        <a class="botones_bf" href="conocenos.jsp">Constancia de No Adeudo</a>
+                        <a class="botones_bf" href="index.jsp">Constancia de No Adeudo</a>
                     </div>
                 </div>
 

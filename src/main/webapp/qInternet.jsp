@@ -148,47 +148,77 @@
                             </p>
                         </div>
 
-                        <div class="c_grande2"> 
-                            <div class="c_peque2">
+                        <div class="c_grandeI"> 
+
+                            <div class="otraclase">
                                 <img  src="https://www.qapaq.pe/wp-content/uploads/2020/08/cd-64x64.png" width="54" height="54" alt="beneficios" title="beneficios">
-                                <p><strong>¿Que debo hacer para usar los canales digitales de la financiera Qapac?</strong></p>
-                                <p>Debes tener actualizados tus datos de contacto (celular y correo electrónico) y afiliarte a los servicios digitales:</p>
-                                <ul>
-                                    <li>Si tu información de contacto está actualizada te podrás afiliar sin mayores inconvenientes.</li>
-                                    <li>Si tu información de contacto no está actualizada, deberás acercarte a la Agencia más próxima y solicitar la actualización.</li>
-                                </ul>
-                            </div>    
-                            <div class="c_peque2">
+                                <details open>
+                                    <summary><strong>¿Que debo hacer para usar los canales digitales de la financiera Qapac?</strong></summary>
+                                    <p>Debes tener actualizados tus datos de contacto (celular y correo electrónico) y afiliarte a los servicios digitales:</p>
+                                    <ul>
+                                        <li>Si tu información de contacto está actualizada te podrás afiliar sin mayores inconvenientes.</li>
+                                        <li>Si tu información de contacto no está actualizada, deberás acercarte a la Agencia más próxima y solicitar la actualización.</li>
+                                    </ul>
+                                </details>
                                 <img  src="https://www.qapaq.pe/wp-content/uploads/2020/08/ag-64x64.png" width="54" height="54" alt="beneficios" title="beneficios">
-                                <p><strong>¿Que hacer en agencia?</strong></p>                              
-                                <ul>
-                                    <li>Acércate a ventanilla o plataforma.</li>
-                                    <li>Pide la actualización, registra tus datos de contacto y valídalos.</li>
-                                    <li>Firma los formatos correspondientes.</li>
-                                    <li>¡Listo! Ya podrás afiliarte a Qapaq por Internet.</li>
-                                </ul>
-                            </div> 
-                            <div class="c_peque2">
+                                <details >
+                                    <summary><strong>¿Que hacer en agencia?</strong></summary>
+                                    <ul>
+                                        <li>Acércate a ventanilla o plataforma.</li>
+                                        <li>Pide la actualización, registra tus datos de contacto y valídalos.</li>
+                                        <li>Firma los formatos correspondientes.</li>
+                                        <li>¡Listo! Ya podrás afiliarte a Qapaq por Internet.</li>
+                                    </ul>
+                                </details>
+
+
+                                <p><strong></strong></p>                              
+
                                 <img  src="https://www.qapaq.pe/wp-content/uploads/2020/08/lc-64x64.png" width="54" height="54" alt="beneficios" title="beneficios">
-                                <p><strong>¿Como ubico la agencia mas cercana?</strong></p>                              
-                                <p>Para ubicar la agencia más cercana a ti, haz click aquí.</p>
-                            </div> 
-                            <div class="c_peque2">
+                                <details >
+                                    <summary><strong>¿Como ubico la agencia mas cercana?</strong></summary>
+                                    <p>Para ubicar la agencia más cercana a ti, haz click aquí.</p>
+                                </details>
+
+
                                 <img  src="https://www.qapaq.pe/wp-content/uploads/2020/08/ps-64x64.png" width="54" height="54" alt="beneficios" title="beneficios">
-                                <p><strong>Clave dinamica</strong></p>                              
-                                <ul>
-                                    <li>La Clave Dinámica es un código de 6 dígitos que  sirve para hacer operaciones de manera segura en Qapaq por Internet o en el App Qapaq Móvil.</li>
-                                    <li>La Clave Dinámica te llegará por SMS al celular afiliado o por correo electrónico.</li>
-                                    <li>Si vas a hacer pagos o transferencias a terceros es necesario que uses la Clave Dinámica, para realizar operaciones entre tus cuentas o consultas, no.</li>                                   
-                                </ul>
-                            </div>   
-                            <div class="c_peque2">
+                                <details >
+                                    <summary><strong>Clave dinamica</strong></summary>
+                                    <ul>
+                                        <li>La Clave Dinámica es un código de 6 dígitos que  sirve para hacer operaciones de manera segura en Qapaq por Internet o en el App Qapaq Móvil.</li>
+                                        <li>La Clave Dinámica te llegará por SMS al celular afiliado o por correo electrónico.</li>
+                                        <li>Si vas a hacer pagos o transferencias a terceros es necesario que uses la Clave Dinámica, para realizar operaciones entre tus cuentas o consultas, no.</li>                                   
+                                    </ul>
+                                </details>
+
+
                                 <img  src="https://www.qapaq.pe/wp-content/uploads/2020/08/lg-64x64.png" width="54" height="54" alt="beneficios" title="beneficios">
-                                <p><strong>¿Como ingresar por primera vez a Qapac por Internet?</strong></p>                              
-                                <p>Ingresa a la web desde https://bancaenlinea.qapaq.com.pe/ <br>
-                                   Te mostrará esta pantalla de inicio. Seleccionas la opción “Regístrate”.</p>
-                                <img  src="https://www.qapaq.pe/wp-content/uploads/2020/09/WhatsApp-Image-2020-09-05-at-10.11.42.png" width="100" height="100" alt="beneficios" title="beneficios">
-                            </div>   
+                                <details >
+                                    <summary><strong>¿Como ingresar por primera vez a Qapac por Internet?</strong></summary>
+                                    <p>Ingresa a la web desde https://bancaenlinea.qapaq.com.pe/ <br>
+                                        Te mostrará esta pantalla de inicio. Seleccionas la opción “Regístrate”.</p>
+                                    <img  src="https://www.qapaq.pe/wp-content/uploads/2020/09/WhatsApp-Image-2020-09-05-at-10.11.42.png" width="350" height="300" alt="beneficios" title="beneficios">
+                                    <p>Ingresa los datos solicitados: Tipo de documento, Número de documento, Fecha de nacimiento, Número celular, Correo electrónico.  Acepta los términos y condiciones, 
+                                        puedes visualizarlos haciendo click en el botón correspondiente y luego presiona el botón “Afiliar”.</p>
+                                    <img  src="https://www.qapaq.pe/wp-content/uploads/2020/09/WhatsApp-Image-2020-09-05-at-10.11.42s.png" width="350" height="300" alt="beneficios" title="beneficios">
+                                    <p>Te enviaremos una clave de acceso temporal por SMS al celular afiliado o por correo electrónico, ingresa tu número de documento de identidad y la clave de acceso temporal en la siguiente pantalla.</p>
+                                    <img  src="https://www.qapaq.pe/wp-content/uploads/2020/08/qc.png" width="350" height="300" alt="beneficios" title="beneficios">
+                                    <p>Al ingresar la primera vez, te solicitaremos cambiar tu clave temporal por una clave personal. Con ésta podrás ingresar a Qapaq por Internet o al App Qapaq Móvil. ¡Recuérdala y guárdala en un lugar seguro!</p>
+                                    <img  src="https://www.qapaq.pe/wp-content/uploads/2020/09/WhatsApp-Image-2020-09-05-at-10.12.06ss.png" width="350" height="300" alt="beneficios" title="beneficios">
+                                    <p>Ya puedes ingresar a Qapaq por Internet con tu número de documento y la contraseña que creaste.</p>
+                                    <img  src="https://www.qapaq.pe/wp-content/uploads/2020/08/qe.png" width="350" height="300" alt="beneficios" title="beneficios">
+                                    <p>Luego de éste primer ingreso, te recomendamos establecer una pregunta de seguridad, de esa forma en caso de olvido de clave, podrás restablecer tus accesos rápidamente. Para ello ingresa a la opción “Registro de Pregunta”</p>
+                                    <img  src="https://www.qapaq.pe/wp-content/uploads/2020/08/qf.png" width="350" height="300" alt="beneficios" title="beneficios">
+                                    <p>Puedes elegir una del menú desplegable o crear una personalizada. Registrar tu respuesta, grabar y ¡Listo!</p>
+                                    <img  src="https://www.qapaq.pe/wp-content/uploads/2020/08/qg.png" width="350" height="300" alt="beneficios" title="beneficios">                       
+                                </details>
+                                
+                                <p style="color: #ed1843; text-align: center;"><strong>¡Listo! Ya puedes hacer consultas y operaciones usando los Canales Digitales de Financiera QAPAQ.</strong></p>
+                                <div><a href="index.jsp" class="irweb">Ir a la web</a></div>
+                            </div>    
+
+
+
                         </div>
 
                     </div>                        
@@ -196,22 +226,22 @@
             </header>
 
             <!-- Contact Us -->
-            <div class="touch-line1">
+             <div class="touch-line1">
                 <div class="c_final">
                     <div class="barra_final">
-                        <a class="botones_bf" href="conocenos.jsp">Libro de Reclamaciones</a>
+                        <a class="botones_bf" href="index.jsp">Libro de Reclamaciones</a>
                     </div>
                     <div class="barra_final">
-                        <a class="botones_bf" href="conocenos.jsp">Trabaja con Nosotros</a>
+                        <a class="botones_bf" href="index.jsp">Trabaja con Nosotros</a>
                     </div>
                     <div class="barra_final">
-                        <a class="botones_bf" href="conocenos.jsp">Terminos y Condiciones</a>
+                        <a class="botones_bf" href="index.jsp">Terminos y Condiciones</a>
                     </div>
                     <div class="barra_final">
-                        <a class="botones_bf" href="conocenos.jsp">Proteccion de Datos Personales</a>
+                        <a class="botones_bf" href="index.jsp">Proteccion de Datos Personales</a>
                     </div>
                     <div class="barra_final">
-                        <a class="botones_bf" href="conocenos.jsp">Constancia de No Adeudo</a>
+                        <a class="botones_bf" href="index.jsp">Constancia de No Adeudo</a>
                     </div>
                 </div>
 

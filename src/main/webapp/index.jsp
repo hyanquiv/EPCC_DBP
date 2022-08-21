@@ -116,7 +116,7 @@
 						<div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownBlog">
 							<a class="dropdown-item" href="qInternet.jsp">Qapac por Internet</a>
 							<a class="dropdown-item" href="appQapac.jsp">App Qapac Movil</a>
-                                                        <a class="dropdown-item" href="pLink">Pago Link</a>
+                                                        <a class="dropdown-item" href="pLink.jsp">Pago Link</a>
 						</div>
 					</li>
 					
@@ -161,25 +161,25 @@
     </header>
 	
 	<!-- Contact Us -->
-	<div class="touch-line1">
+	 <div class="touch-line1">
                 <div class="c_final">
-                        <div class="barra_final">
-                            <a class="botones_bf" href="conocenos.jsp">Libro de Reclamaciones</a>
-                        </div>
-                        <div class="barra_final">
-                            <a class="botones_bf" href="conocenos.jsp">Trabaja con Nosotros</a>
-                        </div>
-                        <div class="barra_final">
-                            <a class="botones_bf" href="conocenos.jsp">Terminos y Condiciones</a>
-                        </div>
-                        <div class="barra_final">
-                            <a class="botones_bf" href="conocenos.jsp">Proteccion de Datos Personales</a>
-                        </div>
-                        <div class="barra_final">
-                            <a class="botones_bf" href="conocenos.jsp">Constancia de No Adeudo</a>
-                        </div>
+                    <div class="barra_final">
+                        <a class="botones_bf" href="index.jsp">Libro de Reclamaciones</a>
+                    </div>
+                    <div class="barra_final">
+                        <a class="botones_bf" href="index.jsp">Trabaja con Nosotros</a>
+                    </div>
+                    <div class="barra_final">
+                        <a class="botones_bf" href="index.jsp">Terminos y Condiciones</a>
+                    </div>
+                    <div class="barra_final">
+                        <a class="botones_bf" href="index.jsp">Proteccion de Datos Personales</a>
+                    </div>
+                    <div class="barra_final">
+                        <a class="botones_bf" href="index.jsp">Constancia de No Adeudo</a>
+                    </div>
                 </div>
-                
+
             </div>
 
             <!-- /.container -->
