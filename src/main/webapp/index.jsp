@@ -75,42 +75,48 @@
             <div class="collapse navbar-collapse" id="navbarResponsive">
 				<ul class="navbar-nav ml-auto">
 					<li class="nav-item">
-						<a class="nav-link active" href="index.html">Conocenos</a>
+						<a class="nav-link active" href="conocenos.jsp">Conocenos</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="about.html">Ubícanos</a>
+						<a class="nav-link" href="ubicanos.jsp">Ubícanos</a>
 					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="services.html">Prestamos</a>
+					<li class="nav-item dropdown">
+						<a class="nav-link" href="#" id="navbarDropdownBlog" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Prestamos <i class="fas fa-sort-down"></i></a>
+						<div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownBlog">
+							<a class="dropdown-item" href="tNegocio.jsp">Para tu Negocio+</a>
+							<a class="dropdown-item" href="pTi.jsp">Para Ti</a>
+							
+						</div>
 					</li>
 					<li class="nav-item dropdown">
 						<a class="nav-link" href="#" id="navbarDropdownBlog" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Ahorros <i class="fas fa-sort-down"></i></a>
 						<div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownBlog">
-							<a class="dropdown-item" href="faq.html">FAQ</a>
-							<a class="dropdown-item" href="404.html">404</a>
-							<a class="dropdown-item" href="pricing.html">Pricing Table</a>
+							<a class="dropdown-item" href="qapital.jsp">Qapital+</a>
+							<a class="dropdown-item" href="cNegocios.jsp">Cuenta Negocios</a>
+							<a class="dropdown-item" href="ahorros.jsp">Ahorros</a>
 						</div>
 					</li>
 					<li class="nav-item dropdown">
 						<a class="nav-link" href="#" id="navbarDropdownPortfolio" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Seguros <i class="fas fa-sort-down"></i></a>
 						<div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownPortfolio">
-							<a class="dropdown-item" href="portfolio-3-col.html">3 Column Portfolio</a>
-							<a class="dropdown-item" href="portfolio-4-col.html">4 Column Portfolio</a>
-							<a class="dropdown-item" href="portfolio-item.html">Single Portfolio Item</a>
+							<a class="dropdown-item" href="sDigital.jsp">Soat Digital</a>
+							<a class="dropdown-item" href="vIntegral.jsp">Vida Integral</a>
+							<a class="dropdown-item" href="tProtegemos.jsp">Te Protegemos</a>
 						</div>
 					</li>
 					<li class="nav-item dropdown">
 						<a class="nav-link" href="#" id="navbarDropdownBlog" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Servicios <i class="fas fa-sort-down"></i></a>
 						<div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownBlog">
-							<a class="dropdown-item" href="blog.html">Blog</a>
-							<a class="dropdown-item" href="blog-post.html">Blog Post</a>
+							<a class="dropdown-item" href="tInterbancarias.jsp">Transferencias Interbancarias</a>
+							
 						</div>
 					</li>
                                         <li class="nav-item dropdown">
 						<a class="nav-link" href="#" id="navbarDropdownBlog" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Canales Digitales <i class="fas fa-sort-down"></i></a>
 						<div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownBlog">
-							<a class="dropdown-item" href="blog.html">Blog</a>
-							<a class="dropdown-item" href="blog-post.html">Blog Post</a>
+							<a class="dropdown-item" href="qInternet.jsp">Qapac por Internet</a>
+							<a class="dropdown-item" href="appQapac.jsp">App Qapac Movil</a>
+                                                        <a class="dropdown-item" href="pLink">Pago Link</a>
 						</div>
 					</li>
 					
@@ -118,7 +124,7 @@
             </div>
         </div>
     </nav>
-    
+    <!-- Propio de la pag -->
     <header class="slider-main">
         <div id="carouselExampleIndicators" class="carousel slide carousel-fade" data-ride="carousel">
             <ol class="carousel-indicators">
@@ -155,90 +161,37 @@
     </header>
 	
 	<!-- Contact Us -->
-	<div class="touch-line">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-8">
-				   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias, expedita, saepe, vero rerum deleniti beatae veniam harum neque nemo praesentium cum alias asperiores commodi.</p>
-				</div>
-				<div class="col-md-4">
-				   <a class="btn btn-lg btn-secondary btn-block" href="#"> Contact Us </a>
-				</div>
-			</div>
-		</div>
-	</div>
-	
-    <!-- /.container -->
-    <!--footer starts from here-->
-    <footer class="footer">
-        <div class="container bottom_border">
-            <div class="row">
-				<div class="col-lg-3 col-md-6 col-sm-6 col">
-					<h5 class="headin5_amrc col_white_amrc pt2">About Us</h5>
-					<!--headin5_amrc-->
-					<p class="mb10">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
-					<ul class="footer-social">
-						<li><a class="facebook hb-xs-margin" href="#"><span class="hb hb-xs spin hb-facebook"><i class="fab fa-facebook-f"></i></span></a></li>
-						<li><a class="twitter hb-xs-margin" href="#"><span class="hb hb-xs spin hb-twitter"><i class="fab fa-twitter"></i></span></a></li>
-						<li><a class="instagram hb-xs-margin" href="#"><span class="hb hb-xs spin hb-instagram"><i class="fab fa-instagram"></i></span></a></li>
-						<li><a class="googleplus hb-xs-margin" href="#"><span class="hb hb-xs spin hb-google-plus"><i class="fab fa-google-plus-g"></i></span></a></li>
-						<li><a class="dribbble hb-xs-margin" href="#"><span class="hb hb-xs spin hb-dribbble"><i class="fab fa-dribbble"></i></span></a></li>
-					</ul>
-				</div>	
-				<div class="col-lg-3 col-md-6 col-sm-6">
-					<h5 class="headin5_amrc col_white_amrc pt2">Quick links</h5>
-					<!--headin5_amrc-->
-					<ul class="footer_ul_amrc">
-						<li><a href="#"><i class="fas fa-long-arrow-alt-right"></i>Default Version</a></li>
-						<li><a href="#"><i class="fas fa-long-arrow-alt-right"></i>Boxed Version</a></li>
-						<li><a href="#"><i class="fas fa-long-arrow-alt-right"></i>Our Team </a></li>
-						<li><a href="#"><i class="fas fa-long-arrow-alt-right"></i>About Us</a></li>
-						<li><a href="#"><i class="fas fa-long-arrow-alt-right"></i>Our Services</a></li>
-						<li><a href="#"><i class="fas fa-long-arrow-alt-right"></i>Get In Touch</a></li>
-					</ul>
-					<!--footer_ul_amrc ends here-->
-				</div>
-				<div class="col-lg-3 col-md-6 col-sm-6 col">
-					<h5 class="headin5_amrc col_white_amrc pt2">Follow us</h5>
-					<!--headin5_amrc ends here-->
-					<ul class="footer_ul2_amrc">
-						<li>
-							<a href="#"><i class="fab fa-twitter fleft padding-right"></i> </a>
-							<p>Lorem Ipsum is simply dummy...<a href="#">https://www.lipsum.com/</a></p>
-						</li>
-						<li>
-							<a href="#"><i class="fab fa-twitter fleft padding-right"></i> </a>
-							<p>Lorem Ipsum is simply dummy...<a href="#">https://www.lipsum.com/</a></p>
-						</li>
-						<li>
-							<a href="#"><i class="fab fa-twitter fleft padding-right"></i> </a>
-							<p>Lorem Ipsum is simply dummy...<a href="#">https://www.lipsum.com/</a></p>
-						</li>
-					</ul>
-					<!--footer_ul2_amrc ends here-->
-				</div>
-				<div class="col-lg-3 col-md-6 col-sm-6 ">
-					<div class="news-box">
-						<h5 class="headin5_amrc col_white_amrc pt2">Newsletter</h5>
-						<p>Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...</p>
-						<form action="#">
-							<div class="input-group">
-								<input class="form-control" placeholder="Search for..." type="text">
-								<span class="input-group-btn">
-								  <button class="btn btn-secondary" type="button">Go!</button>
-								</span>
-							</div>
-						</form>
-					</div>
-				</div>
-			</div>
-		</div>
-        <div class="container">
-            <p class="copyright text-center">All Rights Reserved. &copy; 2018 <a href="#">Zonebiz</a> Design By : 
-				<a href="https://html.design/">html design</a>
-            </p>
-        </div>
-    </footer>
+	<div class="touch-line1">
+                <div class="c_final">
+                        <div class="barra_final">
+                            <a class="botones_bf" href="conocenos.jsp">Libro de Reclamaciones</a>
+                        </div>
+                        <div class="barra_final">
+                            <a class="botones_bf" href="conocenos.jsp">Trabaja con Nosotros</a>
+                        </div>
+                        <div class="barra_final">
+                            <a class="botones_bf" href="conocenos.jsp">Terminos y Condiciones</a>
+                        </div>
+                        <div class="barra_final">
+                            <a class="botones_bf" href="conocenos.jsp">Proteccion de Datos Personales</a>
+                        </div>
+                        <div class="barra_final">
+                            <a class="botones_bf" href="conocenos.jsp">Constancia de No Adeudo</a>
+                        </div>
+                </div>
+                
+            </div>
+
+            <!-- /.container -->
+            <!--footer starts from here-->
+            <footer class="footer">
+                
+                    
+                <div class="container">
+                    <p class="copyright text-center">© Financiera QAPAQ S.A. | Todos los derechos reservados. | R.U.C. 20521308321
+                    </p>
+                </div>
+            </footer>
 </div>
 	  
 <!-- Bootstrap core JavaScript -->

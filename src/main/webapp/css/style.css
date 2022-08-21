@@ -108,6 +108,24 @@ button.btn-secondary:hover{
 .top-nav{
 	background-color: #ffffff !important;
 }
+.botones_bf{
+    color:#FFFFFF;
+    align:center;
+    position: relative;
+    font-size: 17px;
+    font-weight: bold;
+    
+}
+.barra_final{
+    position:relative;
+    
+    padding:10px 20px;
+    margin: 0px 25px 50px 25px;
+    padding: 5px 5px 5px 5px;
+    float:left;
+    align-content: center;
+    
+}
 .navbar-expand-lg.top-nav .navbar-nav .nav-link{
 	padding: 10px 15px;
 	color: #323232;
@@ -130,7 +148,7 @@ button.btn-secondary:hover{
 }
 .navbar-expand-lg.top-nav .navbar-nav .nav-link.active:before{
 	content: "";
-	position: absolute;
+	position: fixed;
 	width: 40px;
 	background: #ffee00;
 	height: 5px;
@@ -140,7 +158,7 @@ button.btn-secondary:hover{
 }
 .navbar-expand-lg.top-nav .navbar-nav .nav-link.active:after{
 	content: "";
-	position: absolute;
+	position: fixed;
 	width: 40px;
 	background: #ffee00;
 	height: 5px;
@@ -150,7 +168,7 @@ button.btn-secondary:hover{
 }
 .navbar-expand-lg.top-nav .navbar-nav .nav-link:before{
 	content: "";
-	position: absolute;
+	position: fixed;
 	width: 0px;
 	background: #ffee00;
 	height: 5px;
@@ -165,7 +183,7 @@ button.btn-secondary:hover{
 }
 .navbar-expand-lg.top-nav .navbar-nav .nav-link:after{
 	content: "";
-	position: absolute;
+	position: fixed;
 	width: 0px;
 	background: #ffee00;
 	height: 5px;
@@ -270,13 +288,23 @@ button.btn-secondary:hover{
 }
 
 
-.slider-main .carousel ol li{
-	height: 15px;
-	border-radius: 6px;
-	background: #323232;
+.imaarriba{
+	width: 200px;
+    
+    height: 50px;
+    margin: 0;
+    padding: 0;
+    border: none;
+    line-height: normal;
+    
+    vertical-align: top;
+}
+.vc_single_image-img{
+    display:block; background-color:red;
 }
 .slider-main .carousel .carousel-indicators .active{
 	background: #ffee00;
+        
 }
 .slider-main .carousel .carousel-item .carousel-caption h3{
 	font-size: 75px;
@@ -287,12 +315,13 @@ button.btn-secondary:hover{
 }
 .slider-main .carousel .carousel-inner .carousel-item:before{
 	content: "";
-	position: absolute;
+	position: relative;
 	background: rgba(0,0,0,0.5);
 	top: 0px;
 	left: 0px;
-	width: 100%;
-	height: 100%;
+	
+        object-fit: contain;
+        
 }
 .carousel-item {
   height: 88vh;
@@ -302,6 +331,7 @@ button.btn-secondary:hover{
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  
 }
 .portfolio-item {
   margin-bottom: 30px;
@@ -588,10 +618,110 @@ button.btn-secondary:hover{
 }
 
 .touch-line{
-	padding: 40px 0px;
+	padding: 30px 0px;
 	background: #ffee00;
 	position: relative;
 	margin-top: 90px;
+}
+.touch-line1{
+	padding: 90px 0px 90px 0px;
+	background-image: url("https://thumbs.dreamstime.com/b/fondo-negro-con-l%C3%ADneas-de-onda-textura-abstracta-oscura-moderna-220819341.jpg");
+	position: relative;
+	margin-top: 90px;
+}
+.touch-line1:before{
+	position: absolute;
+	content: "";
+	
+	left: 0;
+	
+	bottom: auto;
+	right: auto;
+	
+	width: 200px;
+	height: 100px;
+	background-size: contain;
+	
+	
+}
+.c_grande{
+    display:flex;
+    justify-content: center;
+    margin: auto;
+    
+    width: 1260px;
+    height: 600px;
+    
+}
+.ima_ima{
+    width: 1170px;
+    height: 180px;
+    margin-left:300px;
+    
+}
+.c_grande2{
+    display:flex;
+    justify-content: center;
+    margin: auto;   
+}
+.c_grande3{
+    display:flex;
+    justify-content: center;
+    margin: auto;
+    
+    width: 1260px;
+    height: 600px;
+    
+}
+.c_final{
+    margin: auto;
+    
+    width: 1360px;
+    height: 60px;
+}
+.c_ima{
+    display: block;
+    padding:20px;
+    position: relative;
+    width: 100px;
+    height: 100px;
+    margin: auto;
+}
+.c_peque1{
+    
+    padding:20px;
+    position: relative;
+    
+    width: 900px;
+    height: 550px;
+    margin: auto;
+    
+}
+.c_peque2{
+    
+    padding:20px;
+    position: relative;
+    
+    width: 900px;
+    height: 550px;
+    
+    
+}
+.c_peque2{
+    
+    padding:20px;
+    width: 600px;
+    height: 550px;
+    
+}
+.c_peque{
+    float:left;
+    padding:20px;
+    
+    width: 400px;
+    height: 550px;
+    margin-left:15px;
+    
 }
 .touch-line:before{
 	position: absolute;
@@ -617,6 +747,7 @@ button.btn-secondary:hover{
 	border-color: #ffffff;
 	color: #ffee00;
 }
+
 .footer { 
 	width:100%; 
 	background: url(../images/footer-bg.jpg) no-repeat center;
@@ -1614,10 +1745,9 @@ footer p {
 	
 }
 
-
 @media (min-width:768px) and (max-width:991px){
 	.navbar-expand-lg.top-nav .navbar-nav .nav-link.dropdown-toggle::after{
-		position: absolute;
+		position: fixed;
 		top: 18px;
 		right: 6px;
 	}
@@ -1626,6 +1756,7 @@ footer p {
 	}
 	.navbar-expand-lg.top-nav .navbar-nav .nav-link.active::before{
 		display: none;
+                
 	}
 	.navbar-expand-lg.top-nav .navbar-nav .nav-link.active::after{
 		display: none;
@@ -1643,7 +1774,8 @@ footer p {
 
 @media screen and (max-width:767px){
 	.navbar-expand-lg.top-nav .navbar-nav .nav-link.dropdown-toggle::after{
-		position: absolute;
+                display: block;
+		position: fixed;
 		top: 18px;
 		right: 6px;
 	}
