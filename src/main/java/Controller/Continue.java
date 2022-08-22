@@ -4,9 +4,6 @@
  */
 package Controller;
 
-
-import Model.LoginBean;
-import Model.LoginUser;
 import java.io.IOException;
 import java.io.PrintWriter;
 import javax.servlet.ServletException;
@@ -14,15 +11,13 @@ import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
-import javax.servlet.http.HttpSession;
-import static javax.swing.JOptionPane.showMessageDialog;
 
 /**
  *
  * @author Henry
  */
-@WebServlet(name = "Login", urlPatterns = {"/Login"})
-public class Login extends HttpServlet {
+@WebServlet(name = "Continue", urlPatterns = {"/Continue"})
+public class Continue extends HttpServlet {
 
     /**
      * Processes requests for both HTTP <code>GET</code> and <code>POST</code> methods.
@@ -40,10 +35,10 @@ public class Login extends HttpServlet {
             out.println("<!DOCTYPE html>");
             out.println("<html>");
             out.println("<head>");
-            out.println("<title>Servlet Login</title>");            
+            out.println("<title>Servlet Continue</title>");            
             out.println("</head>");
             out.println("<body>");
-            out.println("<h1>Servlet Login at " + request.getContextPath() + "</h1>");
+            out.println("<h1>Servlet Continue at " + request.getContextPath() + "</h1>");
             out.println("</body>");
             out.println("</html>");
         }
@@ -75,27 +70,9 @@ public class Login extends HttpServlet {
     @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
-        String userName = request.getParameter("dni_id");
-        String password = request.getParameter("password");
-        
-        LoginBean loginBean = new LoginBean();
-        loginBean.setUserName(userName);
-        loginBean.setPassword(password);
-        
-        LoginUser loginUser = new LoginUser();
-        if(loginUser.validate(loginBean)){
-            HttpSession hs = request.getSession();
-            hs.setAttribute("username", userName);
-            response.sendRedirect("ingresando.jsp");
-        }
-        else{
-            showMessageDialog(null, "Usuario o contraseña invalidos");
-            response.sendRedirect("bancaxinternet.jsp");
-        }
-            
-        
+        response.sendRedirect("userInterface.jsp");
     }
- 
+
     /**
      * Returns a short description of the servlet.
      *
