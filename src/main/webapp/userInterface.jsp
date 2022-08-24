@@ -59,7 +59,7 @@
 				</div>
                                 <div class="col-lg-4 mb-4 contact-right">
                                     <h3>Transferencia </h3>
-                                    <form action="transferir">
+                                    <form action="Transferir" action="post">
                                     <div class="col-md-12" style="margin-top:0px">
                                     <div class="col-md-3 text-white">
                                         <label for="DNI" style="margin-left:0px;width: 150px; font-size:small; color: black">DNI objetivo</label>

@@ -16,7 +16,7 @@ import java.util.logging.Logger;
  *
  * @author Henry
  */
-public class LoginUser {
+public class ValidarTransferencia {
     private String dbUrl = "jdbc:mysql://localhost:3307/qapaq";
     private String dbUname = "root";
     private String dbPassword = "12345";
@@ -24,7 +24,6 @@ public class LoginUser {
     
     public void loadDriver(String dbDriver)
     {
-        
         try {
             Class.forName(dbDriver);
         } catch (ClassNotFoundException ex) {
@@ -42,19 +41,18 @@ public class LoginUser {
         return cnx;
     }
 
-    public boolean validate(LoginBean loginBean) {
+    public boolean validate(OrigenDestino obj) {
         
         loadDriver(dbDriver);
         Connection cnx = getConection();
         boolean status = false;
-        String sql = "select * from usuario where DNI = ? and password = ?" ;
+        String sql = "select * from usuario where DNI = ?" ;
         PreparedStatement ps;
         try {
-            ps=cnx.prepareStatement(sql);
-            ps.setString(1, loginBean.getUserName());
-            ps.setString(2, loginBean.getPassword());
-            ResultSet rs = ps.executeQuery();
             
+            ps=cnx.prepareStatement(sql);
+            ps.setString(1, obj.getDNI_D());
+            ResultSet rs = ps.executeQuery();
             status=rs.next();
             
         } catch (SQLException ex) {
@@ -62,6 +60,4 @@ public class LoginUser {
         }
         return status;
     }
-    
-    
 }

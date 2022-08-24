@@ -17,9 +17,9 @@ import java.util.logging.Logger;
  * @author Henry
  */
 public class RegisterUser {
-    private String dbUrl = "jdbc:mysql://localhost:3306/qapaq";
+    private String dbUrl = "jdbc:mysql://localhost:3307/qapaq";
     private String dbUname = "root";
-    private String dbPassword = "qwert";
+    private String dbPassword = "12345";
     private String dbDriver = "com.mysql.cj.jdbc.Driver";
     
     public void loadDriver(String dbDriver)
